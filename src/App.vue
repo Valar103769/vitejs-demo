@@ -1,16 +1,12 @@
 <template>
-  <!-- <Button /> -->
-  <my-input></my-input>
-  ll
+  <Input />
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-// import { Button } from '@/components/Button.vue';
-// import { MyInput } from '@/components/MyInput.vue';
-
-const value = ref(false);
+import Input from '@/components/Input.vue';
 </script>
+
 <style>
 /* .va-button,
 .va-input-wrapper__prepend-inner,
