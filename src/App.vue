@@ -1,5 +1,10 @@
 <template>
-  <Input />
+  <va-pagination
+    preset="darkPagination"
+    :pages="10"
+    input
+    class="justify-end"
+  />
 </template>
 
 <script setup lang="ts">
